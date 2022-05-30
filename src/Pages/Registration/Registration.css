@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Oxanium:wght@300&display=swap');
+
+.App{
+min-height: 100vh;
+position: relative;
+background-color: #95f5ba;
+/* #aa95f5 */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.App img {
+    width: 70vw;
+    height: 100vh;
+}
+
+.login{
+    margin-right: 4.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titlePage, .titleReg  {
+    color: #fff;
+    font-family: 'Iceland', cursive;
+    
+}
+.titlePage {
+    font-size: 45px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+} 
+.titleReg {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+label {
+    color: #00c54c;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Oxanium', cursive;
+    text-align:left;
+    margin-top: 3px;
+}
+
+.username, .pass, .city, .rg , .cpf, .email ,.phoneNumber {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 8px 6px 6px #6cf5a1;
+    width: 18vw;
+    height: 4vh;
+    padding: 6px 20px;
+}
+
+input[type=text] {
+    padding: 8px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+.documents {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.Location{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+
+.LocationOrganiz {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+select {
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+
+.Regions, .Countries {
+    margin: 2px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 8px 6px 6px #6cf5a1;
+    width: 6.8vw;
+    height: 6vh;
+    padding: 8px 20px;
+}
+
+.Countries {
+    width: 8vw;
+    height: 6vh; 
+}
+
+.btlogin {
+    border-radius: 5px;
+    background-color: #00c54c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    box-shadow:  3.5px 3px 2px #51f18e;
+    padding: 5px 5px;
+    margin: 6px 0px 10px 0px;
+    width: 6vw;
+    height: 6vh;
+}
+
+.btlogin:hover {
+    border-radius: 5px;
+    background-color: #00c54c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    box-shadow:  3.5px 3px 2px #51f18e;
+    padding: 5px 5px;
+    margin: 6px 0px 10px 0px;
+    width: 6.2vw;
+    height: 6.2vh;
+}
+

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Oxanium:wght@300&display=swap');
+
+.App{
+    min-height: 100vh;
+    position: relative;
+    background-color: #95f5ba;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App img {
+    width: 70vw;
+    height: 100vh;
+}
+
+.login{
+    margin-right: 4.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleloginInst, .titleloginCli {
+    color: #fff;
+    font-family: 'Iceland', cursive;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+label {
+    color: #00c54c;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oxanium', cursive;
+}
+
+.username, .pass {
+    margin: 5px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 8px 6px 6px #6cf5a1;
+    width: 18vw;
+    height: 5vh;
+    padding: 12px 20px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btlogin {
+    border-radius: 5px;
+    background-color: #00c54c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    box-shadow:  3.5px 3px 2px #51f18e;
+    padding: 5px 5px;
+    margin: 10px 0px 10px 0px;
+    width: 6vw;
+    height: 6vh;
+}
+
+.btlogin:hover {
+    border-radius: 5px;
+    background-color: #00c54c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    box-shadow:  3.5px 3px 2px #51f18e;
+    padding: 5px 5px;
+    margin: 10px 0px 10px 0px;
+    width: 6.2vw;
+    height: 6.2vh;
+}
+
+.SignUpLabel {
+    margin-top: 45px;
+    font-size: 12px;
+    color: #00c54c;
+}
+.SignUpLink {
+    text-decoration: underline;
+    color: blue;
+}
